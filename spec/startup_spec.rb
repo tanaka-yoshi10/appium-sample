@@ -29,6 +29,7 @@ describe 'setup' do
     find_element(:id, 'com.twitter.android:id/notifications').click
     scroll_to('達人').click
     sleep 5
+    driver.save_screenshot('ccc.png')
     text = find_element(:id, 'com.twitter.android:id/content_text').text
     expect(text).to include 'ディープラーニング'
   end
