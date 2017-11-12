@@ -1,0 +1,10 @@
+[caps]
+platformName = "Android"
+deviceName = "Nexus 5X"
+appPackage = 'com.twitter.android'
+appActivity = '.StartActivity'
+unicodeKeyboard = 'true'
+
+[appium_lib]
+sauce_username = ""
+sauce_access_key = ""
